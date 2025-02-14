@@ -1,0 +1,86 @@
+<style>.content-container {
+    overflow: hidden;
+    position: relative;
+    max-height: 10px; /* Adjust this value to your preferred initial height */
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .content {
+    /* Your long text styles */
+  }
+  
+  .view-more-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  </style>
+
+<div class="content-container">
+    <div class="content">
+     mnbvkjdrhgruygbivt7vr67giyh78trgiyhvn tr8ovioh vb tr
+     dg h87uioh8or7hvtf7tfyn9tf bi tr98bjtrf
+     rhbtr uihbtffiubjgfiubohngfojnvgjbn ffjhbfhuirgjrhgiuxfd
+     uighrtvbntrgkhjbtrihntrjkhirinfdlkjbgfb
+     fhbotiuytrigjtrkjghigitkgut8rgreliugr8yugriolho8erygrigrg
+     rujer8gyre8gieryhgioerygoe4iher9ug8e9rugetytioer
+     gegher7ugyor7tguiherjigwutyrepojkgbjgjuigiusegetd;prjhfeurigirhhtr
+     elfihrlgiurigunoigfiuywkfvb fhouirgmnvkoiofhguygeuifetr
+     ;vdfiugfrilgio;rhrekjgyefiudfghdfkjnuifpfdkjehgfgr5fuifvn,bdvbvcdehfhgrg
+     rfrbvekuyfhre8ugfijonmr
+     fjhgrhgfrgio;jrkjgz;ijdsgauhrgyu78rgjntrfgjkhvfmhdfgp98;gurfo8yhflj;fijg;ojrgv
+        fd;hfifgoiihghirkjhghkrdljhgkfldghrliogjrlijfljlrkjj
+        mnbvkjdrhgruygbivt7vr67giyh78trgiyhvn tr8ovioh vb tr
+        dg h87uioh8or7hvtf7tfyn9tf bi tr98bjtrf
+        rhbtr uihbtffiubjgfiubohngfojnvgjbn ffjhbfhuirgjrhgiuxfd
+        uighrtvbntrgkhjbtrihntrjkhirinfdlkjbgfb
+        fhbotiuytrigjtrkjghigitkgut8rgreliugr8yugriolho8erygrigrg
+        rujer8gyre8gieryhgioerygoe4iher9ug8e9rugetytioer
+        gegher7ugyor7tguiherjigwutyrepojkgbjgjuigiusegetd;prjhfeurigirhhtr
+        elfihrlgiurigunoigfiuywkfvb fhouirgmnvkoiofhguygeuifetr
+        ;vdfiugfrilgio;rhrekjgyefiudfghdfkjnuifpfdkjehgfgr5fuifvn,bdvbvcdehfhgrg
+        rfrbvekuyfhre8ugfijonmr
+        fjhgrhgfrgio;jrkjgz;ijdsgauhrgyu78rgjntrfgjkhvfmhdfgp98;gurfo8yhflj;fijg;ojrgv
+           fd;hfifgoiihghirkjhghkrdljhgkfldghrliogjrlijfljlrkjj
+     </tr>
+    </div>
+    <a class="view-more-button">View More</a>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+  const contentContainer = document.querySelector(".content-container");
+  const viewMoreButton = document.querySelector(".view-more-button");
+
+  viewMoreButton.addEventListener("click", function () {
+    if (contentContainer.classList.contains("open")) {
+      contentContainer.classList.remove("open");
+      viewMoreButton.textContent = "View More";
+      contentContainer.style.maxHeight = "none";
+
+    } else {
+      contentContainer.classList.add("open");
+      viewMoreButton.textContent = "View Less";
+      contentContainer.style.maxHeight = "10px"; // Adjust this value to match your initial height
+
+    }
+  });
+
+  contentContainer.addEventListener("mouseenter", function () {
+    if (!contentContainer.classList.contains("open")) {
+      contentContainer.style.maxHeight = "none";
+    }
+  });
+
+  contentContainer.addEventListener("mouseleave", function () {
+    if (!contentContainer.classList.contains("open")) {
+      contentContainer.style.maxHeight = "10px"; // Adjust this value to match your initial height
+    }
+  });
+});
+
+  </script>
