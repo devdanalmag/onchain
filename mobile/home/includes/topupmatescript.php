@@ -1414,8 +1414,7 @@
         if (giveawaytype.value === "privategiveaway") {
             number_div.style.display = "block";
             numbe_field.required = true;
-            swal("Alert!!", "Please Copy The Phone numbers and Paste. It Will Automatically Arrage It Min.<?php $minnumber = 5;
-            echo $minnumber; ?>", "info");
+            swal("Alert!!", "Please Copy The Phone numbers and Paste. It Will Automatically Arrage It Min.<?php $minnumber = 5; echo $minnumber; ?>", "info");
         }
         else if (giveawaytype.value === "publicgiveaway") {
             number_div.style.display = "none";

@@ -14,6 +14,7 @@ require_once("includes/custom.php");
         content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
     <link rel="apple-touch-icon" sizes="180x180" href="../../assets/img/favicon.png">
     <link rel="stylesheet" type="text/css" href="../assets/scripts/sweetalert/sweetalert.css">
+    <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
     <link rel="icon" type="image/png" href="../../assets/img/favicon.png" />
     <title><?php echo $title; ?></title>
     <?php include_once("includes/cssFiles.php"); ?>
@@ -265,6 +266,7 @@ require_once("includes/custom.php");
 
     <?php include_once("includes/jsFiles.php"); ?>
     <?php include_once("includes/topupmatescript.php"); ?>
+    <?php include_once("includes/tonconnect-js.php"); ?>
 
 </body>
 

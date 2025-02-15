@@ -7,7 +7,9 @@
                 <a href="#" data-active data-bs-toggle="collapse" data-bs-target="#tab-1">Profile</a>
                 <a href="#" data-bs-toggle="collapse" data-bs-target="#tab-2">Password</a>
                 <a href="#" data-bs-toggle="collapse" data-bs-target="#tab-3">Pin</a>
-                <a href="#" data-bs-toggle="collapse" data-bs-target="#tab-4">S/Media</a>
+                <a href="#" data-bs-toggle="collapse" data-bs-target="#tab-4">Wallet</a>
+                <!-- <a href="#" data-bs-toggle="collapse" data-bs-target="#tab-5">S/Media</a> -->
+
 
             </div>
             <div class="clearfix mb-3"></div>
@@ -176,54 +178,51 @@
                 </form>
             </div>
             <div data-bs-parent="#tab-group-1" class="collapse" id="tab-4">
-            <h4>S/media Account</h4>
-                <div class="friends d-grid m-20 gap-20">
-                    <div class="friend rad-6 p-10 p-relative " style="background-color:#E8E0D9DE !important;">
-                        <div class="contact ">
-                            <i class="fa fa-youtube "></i>
-                            <i class="fa fa-solid fa-message"></i>
-                        </div>
-                        <div class="txt-c">
-                            <img class="rad-half mt-10 mb-10"style="width: 150px; heidth: 150px;"
-                                src="<?php echo HOME_IMAGE_LOC; ?>/IMG_20220602_160945_858.jpg" alt="#">
-                            <h4 class="m-0">Mohammad Zayed</h4>
-                            <a href="#" class="c-grey fs-13 mt-0 mb-0">Tab Here To view Link</a>
-                        </div>
-                        <div class="icons fs-14 p-relative">
-                        <div class="mb-10">
-                                <span>S/media: <i class="fa fa-tiktok"></i>TikTok</span>
-                            </div>
-                            <div class="mb-10">
-                                <span>Followers: 500</span>
-                            </div>
-                            <div class="mb-10">
-                                <span>Following: 500</span>
-                            </div>
-                            <div class="mb-10">
-                                <span>Likes: 20</span>
-                            </div>
-                            <div class="mb-10">
-                                <span>Videos: 200</span>
-                            </div>
-                        </div>
-                        <div class="info between-flex fs-13">
-                            <span class="c-grey">Date: 02/10/2022</span>
-                            <div class="">
-                                <a class="bg-blue c-white btn-shape" href="profile.html">Start the Tasks</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="friend rad-6 p-10 p-relative " style="background-color:#E8E0D9DE !important;">
-                    <div class="txt-c">
-                            <img class="rad-half mt-10 mb-10"style="width: 100px; heidth: 100px;"
-                                src="<?php echo HOME_IMAGE_LOC; ?>/youtube_icon.png" alt="#">
-                            <h4 class="m-0">Youtube</h4>
-                            <a href="#" class="c-grey fs-13 mt-0 mb-0">Get Autorize on Youtube</a>
-                        </div>  
-                    <button class="bg-blue c-white btn-shape w-50" style="margin:25%; margin-top:40%; height: 12% !important;" href="profile.html">Tab To Get Autorize</button>
-                    </div>
-
-                    </div>
+            <p class="mb-n1 color-highlight font-600 font-12">Manage Wallet Adress</p>
+            <h4>Wallet Address</h4>
+            <br>
+           <b><h3 style="color: #0098EA;">TON BLOCKCHAIN</h3></b>
+           <div id="ton-connect">Connect Wallet</div>
+           <div id="wallet-info"></div>
+           <br>
+            <div class="list-group list-custom-small">
+                    <a href="#">
+                        <input type="text" class="form-control" readonly
+                            value="<?php echo $siteurl . "mobile/register/?referral=" . $data->sPhone; ?>" />
+                    </a>
+                    <a href="#">
+                        <button class="btn btn-success btn-sm"
+                            onclick='copyToClipboard("<?php echo $siteurl . "mobile/register/?referral=" . $data->sPhone; ?>")'>Copy
+                            Address</button>
+                        <button class="btn btn-danger btn-sm" onclick="window.open('referrals')">Disconnect</button>
+                    </a>
+                </div>
+                <br>
+                <!-- <div class="list-group list-custom-small">
+                    <a href="#">
+                        <input type="text" class="form-control" readonly
+                            value="<?php echo $siteurl . "mobile/register/?referral=" . $data->sPhone; ?>" />
+                    </a>
+                    <a href="#">
+                        <button class="btn btn-success btn-sm"
+                            onclick='copyToClipboard("<?php echo $siteurl . "mobile/register/?referral=" . $data->sPhone; ?>")'>Copy
+                            Address</button>
+                        <button class="btn btn-danger btn-sm" onclick="window.open('referrals')">Disconnect</button>
+                    </a>
+                </div>
+                <br>
+                <div class="list-group list-custom-small">
+                    <a href="#">
+                        <input type="text" class="form-control" readonly
+                            value="<?php echo $siteurl . "mobile/register/?referral=" . $data->sPhone; ?>" />
+                    </a>
+                    <a href="#">
+                        <button class="btn btn-success btn-sm"
+                            onclick='copyToClipboard("<?php echo $siteurl . "mobile/register/?referral=" . $data->sPhone; ?>")'>Copy
+                            Address</button>
+                        <button class="btn btn-danger btn-sm" onclick="window.open('referrals')">Disconnect</button>
+                    </a>
+                </div> -->
                 </div>
         </div>
     </div>

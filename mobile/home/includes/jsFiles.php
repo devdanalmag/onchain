@@ -5,7 +5,7 @@
 <script src="../assets/scripts/sweetalert/jquery.sweet-alert.custom.js"></script>
 <script type="text/javascript" src="../assets/scripts/custom.js?v=1.8"></script>
 <script src="../assets/scripts/home-js/custom.js"></script>
-<script src="../../assets/vendor_components/datatable/datatables.min.js">
+<script src="../../assets/vendor_components/datatable/datatables.min.js"></script>
 <script src="../../assets/vendor_components/datatable/datatables.min.js"></script>
 
 <script src="../../assets/vendor_components/sweetalert/sweetalert.min.js"></script>
