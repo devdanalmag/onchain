@@ -1,7 +1,7 @@
 {
     "name": "TON Connects",
     "url": "https://onchain.com.ng/mobile/home/profile",
-    "iconUrl": "https://onchain.com.ng/mobile/home/profile/icon.png",
+    "iconUrl": "/icon.png",
     "termsUrl": "",
     "privacyPolicyUrl": ""
   }
