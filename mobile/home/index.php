@@ -452,8 +452,6 @@ require_once("includes/custom.php");
       return null;
     }
   </script>
-
-</body>
 <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
-
+</body>
 </html>
