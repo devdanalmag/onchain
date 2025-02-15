@@ -15,7 +15,6 @@ require_once("includes/custom.php");
     <link rel="apple-touch-icon" sizes="180x180" href="../../assets/img/favicon.png">
     <link rel="stylesheet" type="text/css" href="../assets/scripts/sweetalert/sweetalert.css">
     <link rel="icon" type="image/png" href="../../assets/img/favicon.png" />
-    <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
     <title><?php echo $title; ?></title>
     <?php include_once("includes/cssFiles.php"); ?>
     <style>
@@ -455,5 +454,6 @@ require_once("includes/custom.php");
   </script>
 
 </body>
+<script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
 
 </html>
