@@ -8,9 +8,9 @@
 	class Model{
 
 		public static $host="localhost";
-		public static $dbName="earn"; //Database Name
-		public static $username="root"; // Database Username
-		public static $password=""; //Database Password
+		public static $dbName="onchainc_db"; //Database Name
+		public static $username="onchainc_admin"; // Database Username
+		public static $password="onchainc_admin"; //Database Password
 
         public static $dbh;
         

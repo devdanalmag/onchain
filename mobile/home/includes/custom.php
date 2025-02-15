@@ -4,7 +4,7 @@ class Scustom
 {
   public static function Connectdb()
   {
-    $conn = new mysqli("localhost", "root", "", "earn");
+    $conn = new mysqli("localhost", "onchainc_admin", "onchainc_admin", "onchainc_db");
     if (!$conn) {
       $alert = "Failed to connect to MySQL: " . mysqli_connect_error();
     } else {
