@@ -14,7 +14,7 @@
 
     // Initialize TON Connect UI
     const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
-      manifestUrl: '/tonconnect-manifest.json',
+      manifestUrl: 'https://onchain.com.ng/mobile/home/tonconnect-manifest.json',
       buttonRootId: 'ton-connect',
     });
 
