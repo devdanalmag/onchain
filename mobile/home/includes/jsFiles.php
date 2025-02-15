@@ -13,4 +13,3 @@
 <script src="../../assets/js/pages/data-table.js"></script>
 
 <script src="https://kit.fontawesome.com/95325fb6b8.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
